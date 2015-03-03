@@ -2,10 +2,6 @@
 brew install coreutils
 sudo ln-s /usr/local/bin/gsha256sum /usr/local/bin/sha256sum
 
-# Install bash 4, even though we are going to use oh-my-zsh
-brew install bash
-brew install bash-completion
-
 brew install moreutils
 brew install findutils
 brew install gnu-sed --with-default-names
@@ -32,5 +28,4 @@ binaries=(
     php56
     php56-imagick
     php56-mcrypt
-    rcm
 )

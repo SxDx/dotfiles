@@ -21,21 +21,16 @@ brew tap phinze/homebrew-cask
 brew install brew-cask
 brew cask upgrade
 
-brew tap thoughtbot/formulae
-
 sh "scripts/binaries.sh"
 sh "scripts/apps.sh"
 sh "scripts/defaults.sh"
+
+brew tap thoughtbot/formulae
+brew install rcm
 
 # Load dotfiles
 env RCRC=$HOME/dotfiles/rcrc rcup
 
 # After bootstrap stuff
-
-# Add osx specific command line tools
-if test ! $(which subl); then
-  ln -s "/Applications/Sublime Text 3.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
-fi
-
 brew cleanup
 shutdown -r now

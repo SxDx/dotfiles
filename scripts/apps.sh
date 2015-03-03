@@ -38,6 +38,8 @@ apps=(
     carbon-copy-cloner
     dash
     eyetv
+    smoothmouse
+    logitech-control-center
 )
 
 fonts=(
