@@ -40,6 +40,7 @@ apps=(
     eyetv
     smoothmouse
     logitech-control-center
+    xquartz
 )
 
 fonts=(
