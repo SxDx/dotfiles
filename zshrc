@@ -76,7 +76,8 @@ plugins=(git brew rails ruby osx)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
 
 # Load syntax highlighting
 # source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
