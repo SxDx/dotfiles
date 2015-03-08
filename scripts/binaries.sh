@@ -28,4 +28,5 @@ binaries=(
     php56
     php56-imagick
     php56-mcrypt
+    mackup
 )
