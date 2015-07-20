@@ -56,8 +56,8 @@ main () {
     brew tap caskroom/versions
     brew tap caskroom/fonts
 
-    echo "installing apps..."
-    brew cask install --appdir=$appdir ${apps[@]}
+    # echo "installing apps..."
+    # brew cask install --appdir=$appdir ${apps[@]}
 
     echo "installing fonts..."
     brew cask install ${fonts[@]}
