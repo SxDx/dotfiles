@@ -29,4 +29,8 @@ binaries=(
     php56-imagick
     php56-mcrypt
     mackup
+    archey
+    erlang
+    elixir
+    watchman
 )
